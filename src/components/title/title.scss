@@ -1,0 +1,38 @@
+.title{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: sans;
+    background-color: #131313;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+ul {
+    margin: 0 auto;
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title_info{
+    font-size: 20px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+}
+.title_info img{
+    margin-right: 70px;
+    height: 80px;
+    width: 80px;
+}
+
+.title_info li{
+   list-style-type: none; 
+}
+.line{
+    margin: 0 auto;
+    height: 2px;
+    width: 1800px;
+    background-color: #00dbff;
+}

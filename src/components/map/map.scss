@@ -1,0 +1,129 @@
+.mir{
+  background: linear-gradient(to right, #000428, #004e92);
+  // background: linear-gradient(to right, #c02425, #f0cb35);
+}
+.mirage_about{
+  font-family: bebas;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.mirage_main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 870px;
+  width: 1800px;
+}
+.mirage_info{
+position: absolute;
+text-transform: uppercase;
+mix-blend-mode: difference;
+top: 680px;
+left: 150px;
+z-index: 100;
+}
+.mirage_main h2{
+font-size: 120px;
+letter-spacing: 3.5px;
+}
+.mirage_mover img{
+  top: 680px;
+  left: 150px;
+  width: 250px;
+  height: 100px;
+}
+.mirage_mover{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  text-transform: uppercase;
+  mix-blend-mode: difference;
+  top: 720px;
+  left: 700px;
+  z-index: 2;
+}
+.mirage_changer h4{
+  font-size: 50px;
+  letter-spacing: 3.5px;
+
+}
+.mirage_changer{
+  z-index: 2;
+  background-color:white ;
+  border-radius: 30px;
+  padding: 0px 30px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-transform: uppercase;
+  mix-blend-mode: difference;
+  top: 120px;
+  left: 100px;
+}
+.mirage_changer img{
+  height: 70px;
+  width: 80px;
+}
+.mirage_changer a{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mirage_main h3{
+  font-size: 80px;
+  letter-spacing: 3.5px;
+}
+.smokes-A{
+  display: flex;
+  flex-direction: column;
+  font-family: sans;
+  height: 2000px;
+  color: white;
+}
+.smokes_city{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 200px;
+}
+.smokes-A_about{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 70px 0 130px 0;
+  font-size: 40px;
+}
+.smokes_city_about{
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.smokes_city_about h3{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.smokes_city_about p {
+  font-size:18px;
+  line-height: 25px;
+}
+.smokes_city_img video{
+  border: 2px solid black;
+  height: 500px;
+  width: 800px;
+}
+.smokes_city_img img{
+  height: 500px;
+  width: 800px;
+}

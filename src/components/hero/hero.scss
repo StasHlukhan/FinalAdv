@@ -1,0 +1,165 @@
+.hero{
+    font-family: bebas;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero_main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 870px;
+    width: 1800px;
+}
+.hero_info{
+  width: 700px;
+  position: absolute;
+  text-transform: uppercase;
+  mix-blend-mode: difference;
+  top: 620px;
+  left: 150px;
+  z-index: 100;
+}
+
+.hero_main h1{
+  font-size: 90px;
+  letter-spacing: 3.5px;
+
+}
+
+
+
+
+.show_right.element-animation{
+  transition: all 0.8s ease;
+  opacity: 0;
+  transform: translate(-50px, 0%);
+}
+
+.show_right.element-animation.element-show {
+  transition-delay: 0.2s;
+  opacity: 1;
+  transition: all 0.8s ease 0;
+  transform: translate(0px, 0px);
+}
+
+.show_up.element-animation{
+  transition: all 0.8s ease;
+  opacity: 0;
+  transform: translate(0px, 100%);
+}
+.show_up.element-animation.element-show{
+  transition-delay: 0.2s;
+  opacity: 1;
+  transition: all 0.8s ease 0;
+  transform: translate(0px, 0px);
+}
+
+.show_left.element-animation{
+  transition: all 0.8s ease;
+  opacity: 0;
+  transform: translate(50px,0%);
+}
+.show_left.element-animation.element-show{
+  transition-delay: 0.2s;
+  opacity: 1;
+  transition: all 0.8s ease 0;
+  transform: translate(0px, 0px);
+}
+
+
+
+
+
+
+.hero_main a{
+  text-decoration: none;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    overflow: hidden;
+    font-size: 28px;
+    padding: 20px 80px 20px 80px;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 35px;
+    background: white;
+    color: black;
+    font-weight: 400;
+    transition: 0.4s;
+  }
+  .button__line {
+    position: absolute;
+    display: block;
+  }
+  .button__line--top {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, black);
+  }
+  .button:hover .button__line--top {
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+  }
+  .button__line--bottom {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, black);
+  }
+  .button:hover .button__line--bottom {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+  }
+  .button__line--left {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(0deg, transparent, black);
+  }
+  .button:hover .button__line--left {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0s;
+  }
+  .button__line--right {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, black);
+  }
+  .button:hover .button__line--right {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0s;
+  }
+  .button:hover {
+    color: black;
+    text-decoration: none;
+    box-shadow: 0 0 10px white	, 0 0 40px white	, 0 0 80px white	,
+      0 0 160px white	;
+    background-color: whites;
+    transition-delay: 0.9s;
+  }
+
+video{
+    width: 1800px;
+    height: 870px ;
+    object-fit: cover;
+}
+.h_text{
+  color:#00dbff ;
+}

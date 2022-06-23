@@ -1,0 +1,69 @@
+.partners{
+    font-family: sans;
+    margin-top: 100px;
+    height: 350px;
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.partners_info a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+}
+.partners_info{
+    
+    margin-bottom: 40px;
+}
+.kontik{
+    height: 120px; 
+    width: 300px;
+}
+.lipton{
+    margin-top: 15px;
+    height: 120px; 
+    width: 270px;
+}
+.logitech{
+   height: 115px; 
+   width: 300px;
+}
+.partners_img{
+    width: 1600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.nvidia{
+    height: 150px; 
+    width: 270px;
+}
+// .partners_img img{
+//     filter: brightness(30%);
+    
+// }
+// .partners_img img:hover{
+//     filter: brightness(100%);
+    
+// }
+.button__line3{
+    position: absolute;
+    display: block;
+}
+    
+.button__line--bottom3 {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: #00dbff;
+    transition: 0.3s;
+}
+.button2:hover .button__line--bottom3 {
+    right: 0;
+    transition: 0.3s;
+    transition-delay: 0.1s;
+}
